@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.Panel {
+    background-color: #1d1e21;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+  }
+
+  h2 {
+    text-align: center;
+    color: rgba(0, 214, 252, 0.7);
+  }
+
+  .input-group label {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1.8px;
+    color: rgba(0, 214, 252, 0.7);
+    margin-bottom: 8px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: #292a2d;
+    border: 1px solid rgba(0, 214, 252, 0.3);
+    border-radius: 0;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1.8px;
+    font-size: 13px;
+    color: rgb(106, 255, 0);
+    transition: border-color 0.25s ease;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: rgba(0, 214, 252, 0.7);
+  }
+  
+
+
