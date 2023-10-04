@@ -16,7 +16,6 @@ const LoginForm = (props) => {
 
     return (
         <Panel backgroundColor="white"> 
-            <h2>Login</h2>
             <form onSubmit={handleSubmit}>
                 <div className="input-group">
                     <label>Email:</label>
